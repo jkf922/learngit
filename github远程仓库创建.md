@@ -12,9 +12,10 @@ github远程仓库创建：
   9. 添加要上传的文件git add .
   10. 提交并说明git commit -m "firstcommit"
   11. 把代码推到远程仓库git push -u origin master
-  12. git log查看版本信息，git log --stat查看提交详细信息
-  13. git status查看分支信息
-  14. 在当前仓库改了文件后，git diff 文件名，查看自己做的修改再提交
+  14. 在当前仓库改了文件后，git diff 文件名，查看自己做的修改再提交，绿色的是新增，红色的是改动
+  13. git status查看分支信息，查看工作区状态，git checkout --文件名，丢弃工作区某文件的改动；git checkout .丢弃工作区的修改
+  14. 文件从工作区推到远程后，git log查看版本信息，git log --stat查看提交详细信息
+  15. 
 
 
 
