@@ -13,6 +13,7 @@ github远程仓库创建：
   10. 提交并说明git commit -m "firstcommit"
   11. 把代码推到远程仓库git push -u origin master
   12. git log查看版本信息，git log --stat查看提交详细信息
+  13. git status查看分支信息
 
 
 
